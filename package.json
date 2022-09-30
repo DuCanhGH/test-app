@@ -1,0 +1,26 @@
+{
+  "name": "test-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/a.ts",
+    "build": "rollup -c",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "DuCanhGH",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "4.6.0",
+    "tslib": "2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "8.5.0",
+    "@types/node": "18.7.23",
+    "rollup": "2.79.1",
+    "tsx": "3.9.0",
+    "typescript": "4.8.4"
+  }
+}
